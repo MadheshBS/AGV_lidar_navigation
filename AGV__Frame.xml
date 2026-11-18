@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="10/07/26||04:30:37" using="Simscape Multibody Link Version 7.4" from="SolidWorks 33.1.2"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="AGV Frame" uid="AGV Frame" version="237">
+<AssemblyFile name="AGV Frame.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="motor-1" uid="motor-1" entityUid="motor*:*Default">
+<Transform>
+<Rotation>-5.2069459854919835e-14 -1 -9.4438346032177299e-15 0 -9.4438346032177362e-15 0.99999999999999989 -0.99999999999999989 5.2069459854919842e-14 0</Rotation>
+<Translation>0.2195885600741655 0.37180935070022753 0.77154850073549119</Translation>
+</Transform>
+</Instance>
+<Instance name="caster wheel2-1" uid="caster wheel2-1" entityUid="caster wheel2*:*Default">
+<Transform>
+<Rotation>-0.95008068200794871 3.5153967780120039e-15 -0.31200432316766236 -0.31200432316766236 -1.2010682576765053e-16 0.95008068200794871 3.3024367195007381e-15 1 1.2109301673285556e-15</Rotation>
+<Translation>0.53919136896024944 0.3005584446930708 0.64954850073234405</Translation>
+</Transform>
+</Instance>
+<Instance name="motor-2" uid="motor-2" entityUid="motor*:*Default">
+<Transform>
+<Rotation>6.9004925394394922e-16 -1.0000000000000002 6.0653305294922077e-14 -2.1923388153775997e-16 -6.0653305294922077e-14 -1.0000000000000002 1 6.9004925394393581e-16 -2.1923388153780176e-16</Rotation>
+<Translation>0.21958856007411681 0.37180935070023619 0.55754850073550255</Translation>
+</Transform>
+</Instance>
+<Instance name="caster wheel shaft-1" uid="caster wheel shaft-1" entityUid="caster wheel shaft*:*Default">
+<Transform>
+<Rotation>0 3.4914813388431334e-15 1 1 -3.4914813388431334e-15 0 3.4914813388431334e-15 1 -3.4914813388431334e-15</Rotation>
+<Translation>0.53919136896024922 0.30055844469306914 0.63954850073234515</Translation>
+</Transform>
+</Instance>
+<Instance name="Chasis-1" uid="Chasis-1" grounded="true" entityUid="Chasis*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.26958856007729798 0.33780935070022655 0.66454850073235872</Translation>
+</Transform>
+</Instance>
+<Instance name="caster wheel base-1" uid="caster wheel base-1" entityUid="caster wheel base*:*Default">
+<Transform>
+<Rotation>3.4914813388431334e-15 0 1 -6.9829626776862667e-15 -1 0 1 -6.9829626776862667e-15 -3.4914813388431334e-15</Rotation>
+<Translation>0.53919136896024999 0.34980935070022184 0.6645485007323465</Translation>
+</Transform>
+</Instance>
+<Instance name="motor wheel shaft-1" uid="motor wheel shaft-1" entityUid="motor wheel shaft*:*Default">
+<Transform>
+<Rotation>-9.4438346032177362e-15 5.2069459854919842e-14 0.99999999999999989 1 0 9.4438346032177347e-15 0 0.99999999999999989 -5.2069459854919842e-14</Rotation>
+<Translation>0.094588560074166245 0.37180935070022636 0.78654850073549776</Translation>
+</Transform>
+</Instance>
+<Instance name="motor wheel shaft-2" uid="motor wheel shaft-2" entityUid="motor wheel shaft*:*Default">
+<Transform>
+<Rotation>6.0775603299978442e-14 6.9004925394435756e-16 -1.0000000000000002 -1.0000000000000002 -6.9323748736597965e-15 -6.0775603299978442e-14 -6.9323748736598359e-15 1 6.9004925394393581e-16</Rotation>
+<Translation>0.094588560074116687 0.37180935070022525 0.48254850073550526</Translation>
+</Transform>
+</Instance>
+<Instance name="motor wheel-3" uid="motor wheel-3" entityUid="motor wheel*:*Default">
+<Transform>
+<Rotation>-9.5964902691036953e-15 5.2069459854919848e-14 0.99999999999999989 1 0 9.5964902691036937e-15 0 0.99999999999999989 -5.2069459854919848e-14</Rotation>
+<Translation>0.094588560074167716 0.37180935070022658 0.83154850073549769</Translation>
+</Transform>
+</Instance>
+<Instance name="motor wheel-4" uid="motor wheel-4" entityUid="motor wheel*:*Default">
+<Transform>
+<Rotation>6.0895732900689836e-14 -6.9004925394435479e-16 1 -1 6.9323748736597878e-15 6.0895732900689836e-14 -6.9323748736598549e-15 -1 -6.9004925394394173e-16</Rotation>
+<Translation>0.094588560074116645 0.37180935070022519 0.49754850073550527</Translation>
+</Transform>
+</Instance>
+<Instance name="motor mount-2" uid="motor mount-2" entityUid="motor mount*:*Default">
+<Transform>
+<Rotation>-1 6.9829626776862667e-15 0 -6.9829626776862667e-15 -1 0 0 0 1</Rotation>
+<Translation>0.09458856007412085 0.50680935070022726 0.66454850073550276</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Concentric name="Concentric7">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Chasis-1</Uid>
+</InstancePath>
+<Position>0.24131853763547412 0.021000000000000019 0.02828427124746169</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>caster wheel base-1</Uid>
+</InstancePath>
+<Position>0.028284271247463466 -0.012999999999999956 -0.028284271247460357</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric8">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Chasis-1</Uid>
+</InstancePath>
+<Position>0.24131853763547367 0.021000000000000019 -0.028284271247461912</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>caster wheel base-1</Uid>
+</InstancePath>
+<Position>-0.028284271247460357 -0.012999999999999956 -0.028284271247461912</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Chasis-1</Uid>
+</InstancePath>
+<Position>0 0.025000000000000022 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>caster wheel base-1</Uid>
+</InstancePath>
+<Position>0 -0.013000000000000012 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident5">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>caster wheel base-1</Uid>
+</InstancePath>
+<Position>-0.025000000000000022 0.049250906007156481 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>caster wheel2-1</Uid>
+</InstancePath>
+<Position>0 0.020000000000000018 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident7">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>caster wheel base-1</Uid>
+</InstancePath>
+<Position>-0.025000000000000022 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>caster wheel shaft-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric9">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>caster wheel base-1</Uid>
+</InstancePath>
+<Position>-0.060000000000000053 0.049250906007156481 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>caster wheel shaft-1</Uid>
+</InstancePath>
+<Position>0 0.050000000000000044 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident9">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>caster wheel shaft-1</Uid>
+</InstancePath>
+<Position>0 0.010000000000000009 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>caster wheel2-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric10">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>motor-1</Uid>
+</InstancePath>
+<Position>-0.014999999999999902 0.12500000000000003 0</Position>
+<Axis>-0.99999999999999989 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>motor wheel shaft-1</Uid>
+</InstancePath>
+<Position>0 0.059999999999999942 0</Position>
+<Axis>0 -0.99999999999999989 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident10">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>motor-1</Uid>
+</InstancePath>
+<Position>-0.014999999999999902 0.12650000000000003 -0.0065000000000000058</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>motor wheel shaft-1</Uid>
+</InstancePath>
+<Position>-0.0065000000000000058 0.060000000000000053 -0.0014999999999999875</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident11">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>motor-1</Uid>
+</InstancePath>
+<Position>-0.014999999999999902 0.12500000000000003 0</Position>
+<Axis>-0.99999999999999989 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>motor wheel shaft-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -0.99999999999999989 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident19">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>motor-2</Uid>
+</InstancePath>
+<Position>-0.015000000000000013 0.12350000000000008 -0.0065000000000000613</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>motor wheel shaft-2</Uid>
+</InstancePath>
+<Position>-0.0065000000000001168 0.059999999999999998 -0.0015000000000000013</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric14">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>motor-2</Uid>
+</InstancePath>
+<Position>-0.025000000000000022 0.12500000000000006 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>motor wheel shaft-2</Uid>
+</InstancePath>
+<Position>0 0.059999999999999998 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident21">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>motor-2</Uid>
+</InstancePath>
+<Position>-0.015000000000000013 0.12500000000000006 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>motor wheel shaft-2</Uid>
+</InstancePath>
+<Position>0 0.059999999999999998 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric15">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>motor wheel shaft-1</Uid>
+</InstancePath>
+<Position>0 0.059999999999999942 0</Position>
+<Axis>0 -0.99999999999999989 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>motor wheel-3</Uid>
+</InstancePath>
+<Position>0 -0.035000000000000031 0</Position>
+<Axis>0 0.99999999999999989 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident24">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>motor wheel shaft-1</Uid>
+</InstancePath>
+<Position>-0.0065000000000000058 0.060000000000000053 0.0015000000000000013</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>motor wheel-3</Uid>
+</InstancePath>
+<Position>-0.0065000000000000613 -0.03499999999999992 0.0015000000000000013</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident25">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>motor wheel shaft-1</Uid>
+</InstancePath>
+<Position>0 0.059999999999999942 0</Position>
+<Axis>0 0.99999999999999989 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>motor wheel-3</Uid>
+</InstancePath>
+<Position>0 0.015000000000000013 0</Position>
+<Axis>0 0.99999999999999989 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric16">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>motor wheel shaft-2</Uid>
+</InstancePath>
+<Position>0 0.059999999999999998 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>motor wheel-4</Uid>
+</InstancePath>
+<Position>0 -0.034999999999999976 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident26">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>motor wheel shaft-2</Uid>
+</InstancePath>
+<Position>-0.0065000000000001168 0.059999999999999998 -0.0015000000000000013</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>motor wheel-4</Uid>
+</InstancePath>
+<Position>-0.0065000000000000613 -0.034999999999999976 0.0015000000000000152</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident27">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>motor wheel shaft-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>motor wheel-4</Uid>
+</InstancePath>
+<Position>0 0.015000000000000013 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric17">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Chasis-1</Uid>
+</InstancePath>
+<Position>-0.17499999999999985 0.17900000000000005 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>motor mount-2</Uid>
+</InstancePath>
+<Position>0 -0.0080000000000000071 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric18">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Chasis-1</Uid>
+</InstancePath>
+<Position>-0.20962667873320842 0.17900000000000005 0.034626678733208238</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>motor mount-2</Uid>
+</InstancePath>
+<Position>0.034626678730071241 -0.0080000000000000071 0.034626678730067306</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident28">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Chasis-1</Uid>
+</InstancePath>
+<Position>0 0.16900000000000004 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>motor mount-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric19">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>motor-1</Uid>
+</InstancePath>
+<Position>-0.014999999999999902 0.1440918830920373 0.019091883092037021</Position>
+<Axis>-0.99999999999999989 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>motor mount-2</Uid>
+</InstancePath>
+<Position>0.019091883092037312 0.11590811690796332 -0.16000000000000014</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric20">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>motor wheel shaft-1</Uid>
+</InstancePath>
+<Position>0 0.059999999999999942 0</Position>
+<Axis>0 -0.99999999999999989 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>motor mount-2</Uid>
+</InstancePath>
+<Position>0 0.13500000000000001 -0.20000000000000018</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident29">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>motor-1</Uid>
+</InstancePath>
+<Position>-0.035000000000000031 0.16000000000000003 -0.035000000000000031</Position>
+<Axis>-0.99999999999999989 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>motor mount-2</Uid>
+</InstancePath>
+<Position>-0.14999999999999994 0.188 0.14200000000000002</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric21">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>motor-2</Uid>
+</InstancePath>
+<Position>-0.015000000000000013 0.12499999999999961 -0.026999999999999358</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>motor mount-2</Uid>
+</InstancePath>
+<Position>5.5511151231257827e-16 0.10799999999999998 -0.16000000000000014</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric22">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>motor wheel shaft-2</Uid>
+</InstancePath>
+<Position>0 0.059999999999999998 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>motor mount-2</Uid>
+</InstancePath>
+<Position>0 0.13500000000000001 -0.20000000000000018</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident30">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>motor-2</Uid>
+</InstancePath>
+<Position>-0.035000000000000031 0.16000000000000009 -0.035000000000000087</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>motor mount-2</Uid>
+</InstancePath>
+<Position>-0.14999999999999999 0.188 -0.14200000000000002</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="Chasis" uid="Chasis*:*Default" version="950">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Chasis.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>5.8878405052584455</Mass>
+<CenterOfMass>0.030086006878778548 0.1456279378449821 -2.5478411072665861e-15</CenterOfMass>
+<Inertia>0.23312075655456732 0.63885000038306805 0.50231287086709686 0 5.9625056789782973e-16 0.028378033701316131</Inertia>
+</MassProperties>
+<GeometryFile name="Chasis_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.66666666666666663" g="0.69803921568627447" b="0.76862745098039209" a="1"/>
+<Diffuse r="0.66666666666666663" g="0.69803921568627447" b="0.76862745098039209" a="1"/>
+<Specular r="0.33333333333333331" g="0.34901960784313724" b="0.38431372549019605" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="caster wheel base" uid="caster wheel base*:*Default" version="214">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="caster wheel base.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.1334995377759802</Mass>
+<CenterOfMass>0 0.0060543058980773003 0</CenterOfMass>
+<Inertia>0.00010080779832138399 0.00011848469962416134 0.00011147595748704115 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="caster wheel base_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="0.50196078431372548" a="1"/>
+<Diffuse r="1" g="1" b="0.50196078431372548" a="1"/>
+<Specular r="0.5" g="0.5" b="0.25098039215686274" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="caster wheel shaft" uid="caster wheel shaft*:*Default" version="127">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="caster wheel shaft.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0018535396656179789</Mass>
+<CenterOfMass>0 0.025000000000000001 0</CenterOfMass>
+<Inertia>4.8004844743791047e-07 1.1859512267301478e-08 4.8004844743791047e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="caster wheel shaft_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="0.75294117647058822" a="1"/>
+<Diffuse r="1" g="1" b="0.75294117647058822" a="1"/>
+<Specular r="0.5" g="0.5" b="0.37647058823529411" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="caster wheel2" uid="caster wheel2*:*Default" version="121">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="caster wheel2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.083142249577253857</Mass>
+<CenterOfMass>0 0.015000000000000001 0</CenterOfMass>
+<Inertia>3.6538745288769259e-05 6.2659707538846967e-05 3.6538745288769272e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="caster wheel2_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0" g="0.50196078431372548" b="0.50196078431372548" a="1"/>
+<Diffuse r="0" g="0.50196078431372548" b="0.50196078431372548" a="1"/>
+<Specular r="0" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="motor mount" uid="motor mount*:*Default" version="289">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="motor mount.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1.5673621253065919</Mass>
+<CenterOfMass>0 0.054531435327824465 0</CenterOfMass>
+<Inertia>0.02919601841858617 0.035370423406337087 0.017580591348143521 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="motor mount_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.50196078431372548" g="0.50196078431372548" b="1" a="1"/>
+<Diffuse r="0.50196078431372548" g="0.50196078431372548" b="1" a="1"/>
+<Specular r="0.25098039215686274" g="0.25098039215686274" b="0.5" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="motor wheel shaft" uid="motor wheel shaft*:*Default" version="118">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="motor wheel shaft.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0058944040954379264</Mass>
+<CenterOfMass>-0.00019467616767030387 0.029999999999999992 0</CenterOfMass>
+<Inertia>1.811594327907009e-06 9.3033083243685364e-08 1.8180812125994302e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="motor wheel shaft_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0" g="0.50196078431372548" b="0.50196078431372548" a="1"/>
+<Diffuse r="0" g="0.50196078431372548" b="0.50196078431372548" a="1"/>
+<Specular r="0" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="motor wheel" uid="motor wheel*:*Default" version="192">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="motor wheel.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1.5084367504319454</Mass>
+<CenterOfMass>1.2678690105604803e-07 0.029992849441532868 0</CenterOfMass>
+<Inertia>0.0048512759587914902 0.0088253150470836428 0.0048512748403877282 0 0 3.8236324828678838e-09</Inertia>
+</MassProperties>
+<GeometryFile name="motor wheel_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.90980392156862744" g="0.44313725490196076" b="0.031372549019607843" a="1"/>
+<Diffuse r="0.90980392156862744" g="0.44313725490196076" b="0.031372549019607843" a="1"/>
+<Specular r="0.27294117647058824" g="0.13294117647058823" b="0.0094117647058823521" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="motor" uid="motor*:*Default" version="173">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="motor.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.54220521972684543</Mass>
+<CenterOfMass>0.00072094973493387409 0.092905926614508375 9.3096947556517602e-06</CenterOfMass>
+<Inertia>0.0013146531747419388 0.00034788233985651998 0.0013049266429396727 3.9711053317428398e-07 1.3201684903981712e-08 -1.2545660243413674e-05</Inertia>
+</MassProperties>
+<GeometryFile name="motor_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.29411764705882354" g="0.32156862745098036" b="1" a="1"/>
+<Diffuse r="0.29411764705882354" g="0.32156862745098036" b="1" a="1"/>
+<Specular r="0.14705882352941177" g="0.16078431372549018" b="0.5" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>

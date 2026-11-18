@@ -1,0 +1,30 @@
+# MATLAB / Simulink compilation & cache
+slprj/
+*.slxc
+*.asv
+*.m~
+*.bak
+*.tmp
+AGV__Frame_original_backup.slx
+
+# Word Reports & Presentation Slides (Excluded per request)
+*.docx
+*.doc
+*.pptx
+*.ppt
+*.pdf
+
+# Python bytecode & cache
+__pycache__/
+*.pyc
+
+# Temporary scratch & report generation scripts
+generate_final_agv_report.py
+generate_light_diagrams.py
+generate_architecture_diagram.py
+generate_simple_architecture.py
+V3D17700_BIN.txt
+
+# OS metadata
+Thumbs.db
+.DS_Store
