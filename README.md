@@ -15,9 +15,9 @@
 
 Below is the live capture of the **Custom Differential-Drive AGV** executing an autonomous 5-phase cargo transport mission in the 3D Simscape warehouse environment:
 
-![AGV 3D Simscape Simulation Preview](agv_3d_simulation_preview.gif)
+![AGV 3D Simscape Simulation Preview](media/agv_3d_simulation_preview.gif)
 
-> 📹 **High-Definition Full Recording:** Download or stream the uncompressed 1080p 66-second simulation video: [`agv_3d_nav.avi`](agv_3d_nav.avi) (stored with Git LFS).
+> 📹 **High-Definition Full Recording:** Download or stream the uncompressed 1080p 66-second simulation video: [`agv_3d_nav.avi`](media/agv_3d_nav.avi) (stored with Git LFS).
 
 ---
 
@@ -34,7 +34,7 @@ This repository presents the end-to-end design, multibody dynamic modeling, sens
 
 The software and physics simulation architecture is organized into four interconnected functional tiers:
 
-![AGV System Architecture](system_architecture.png)
+![AGV System Architecture](media/system_architecture.png)
 
 1. **Perception Tier**: Virtual 360-beam 2D LiDAR ($10\text{ m}$ range, $1^\circ$ angular resolution, $\sigma = 0.02\text{ m}$ Gaussian noise). Offset by $[dx = +0.20\text{ m}, dz = +0.18\text{ m}]$ to prevent cargo self-occlusion.
 2. **Localization Tier**: AMCL particle filter dynamically correcting wheel slip and non-systematic dead-reckoning drift.
@@ -47,7 +47,7 @@ The software and physics simulation architecture is organized into four intercon
 
 When carrying a **20 kg dynamic payload** (+108.6% gross mass increase over 18.42 kg tare), Simscape Multibody tracks the coupled force, torque, and power requirements:
 
-![AGV Cargo Payload Telemetry](agv_cargo_payload_telemetry.png)
+![AGV Cargo Payload Telemetry](media/agv_cargo_payload_telemetry.png)
 
 ### Key Dynamic Metrics:
 | Metric | Tare AGV (0 kg Cargo) | Gross AGV (20 kg Cargo) | Impact (%) |
@@ -66,7 +66,7 @@ When carrying a **20 kg dynamic payload** (+108.6% gross mass increase over 18.4
 
 | Dead-Reckoning vs. AMCL Localization | Dynamic VFH Obstacle Avoidance |
 | :---: | :---: |
-| ![AMCL vs Dead-Reckoning](localization_comparison_test.png) | ![VFH Obstacle Avoidance](mission_obstacle_avoidance.png) |
+| ![AMCL vs Dead-Reckoning](media/localization_comparison_test.png) | ![VFH Obstacle Avoidance](media/mission_obstacle_avoidance.png) |
 | *AMCL reduces drift from $0.693\text{ m}$ to $0.097\text{ m}$* | *Real-time $0.85\text{ m}$ detour avoiding unmapped pallets* |
 
 ---
